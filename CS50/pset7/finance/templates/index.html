@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy Stock
+{% endblock %}
+
+{% block main %}
+
+
+    <table class = "table">
+        <caption>Portfolio</caption>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+
+        {% for stock in user_info %}
+        <tr>
+
+            {% for col in stock %}
+                <td>{{ stock[col] }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+
+        <tr>
+            <td> CASH AVAILABLE </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> {{ cash }} </td>
+
+        </tr>
+    </table>
+
+
+
+{% endblock %}

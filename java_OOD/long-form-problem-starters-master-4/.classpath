@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Busy&apos;sDiner/Busy&apos;sDiner1/src"/>
+	<classpathentry kind="src" path="Busy&apos;sDiner/Busy&apos;sDiner2/src"/>
+	<classpathentry kind="src" path="Busy&apos;sDiner/Busy&apos;sDiner3/src"/>
+	<classpathentry kind="src" path="CoffeeMaker/src"/>
+	<classpathentry kind="src" path="ConsoleArcade/BingoStarter/src"/>
+	<classpathentry excluding="ui/" kind="src" path="ConsoleArcade/MonsterMazeStarter/src"/>
+	<classpathentry kind="src" path="ConsoleArcade/MonsterMazeStarter/src/ui"/>
+	<classpathentry kind="src" path="ConsoleArcade/SillyWordGameStarter/src"/>
+	<classpathentry kind="src" path="FitLifeGymChainOOD/src"/>
+	<classpathentry kind="src" path="PetPairsStarter/src"/>
+	<classpathentry kind="output" path="PetPairsStarter/bin"/>
+</classpath>
